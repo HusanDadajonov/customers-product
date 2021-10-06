@@ -491,8 +491,12 @@ a{
     width: 351px;
   }
 }
-
-
+@media screen and (max-width:405px){
+  .companies__content-title,
+  .work-texts__desc{
+    width: 300px !important;
+  }
+}
 
 .companies {
   padding: 150px 0;
