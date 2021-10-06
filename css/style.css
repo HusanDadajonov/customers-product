@@ -497,6 +497,15 @@ a{
     width: 300px !important;
   }
 }
+@media screen and (max-width:385px){
+  .companies__content-title,
+  .work-texts__desc{
+    width: 250px !important;
+  }
+  .busines__title{
+    width: 300px;
+  }
+}
 
 .companies {
   padding: 150px 0;
